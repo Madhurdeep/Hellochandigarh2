@@ -1,0 +1,148 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:id="@+id/scrollView2"
+    android:layout_above="@+id/textView3"
+    android:layout_alignLeft="@+id/textView"
+    android:layout_alignStart="@+id/textView">
+
+
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+xmlns:tools="http://schemas.android.com/tools"
+android:layout_width="match_parent"
+android:layout_height="match_parent"
+android:paddingBottom="@dimen/activity_vertical_margin"
+android:paddingLeft="@dimen/activity_horizontal_margin"
+android:paddingRight="@dimen/activity_horizontal_margin"
+android:paddingTop="@dimen/activity_vertical_margin"
+tools:context="com.mds.mac.hellochandigarh.Activity3"
+android:textAlignment="center"
+    android:background="#ffffff">
+
+<ImageView
+    android:layout_width="match_parent"
+    android:layout_height="210dp"
+    android:id="@+id/imageView3"
+    android:src="@drawable/jw"
+    android:layout_alignParentTop="true"
+    android:layout_centerHorizontal="true"
+    />
+
+<TextView
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:textAppearance="?android:attr/textAppearanceLarge"
+    android:text="JW Mariott Chadigarh"
+    android:id="@+id/textView"
+    android:layout_marginTop="30dp"
+    android:layout_below="@+id/imageView3"
+    android:layout_centerHorizontal="true" />
+
+<TextView
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:textAppearance="?android:attr/textAppearanceSmall"
+    android:text="5 STAR "
+    android:layout_marginTop="10dp"
+    android:id="@+id/textView2"
+    android:layout_below="@+id/textView"
+    android:layout_centerHorizontal="true" />
+
+<TextView
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:textAppearance="?android:attr/textAppearanceSmall"
+    android:id="@+id/textView3"
+    android:layout_marginTop="20dp"
+    android:text="This luxury hotel is 13 km from Chandigarh railway station.  Featuring plush, contemporary decor, the polished rooms and suites . Amenities include 4 restaurants (2 of them with bars), as well as a spa, a fitness centre, and an outdoor rooftop pool with sun loungers and city views. "
+    android:textAlignment="center"
+    android:layout_below="@+id/ib"
+    android:layout_alignParentLeft="true"
+    android:layout_alignParentStart="true"
+    android:textIsSelectable="true" />
+
+<TextView
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:textAppearance="?android:attr/textAppearanceSmall"
+    android:text="Address: Plot no: 6, B, Dakshin Marg, Sector 35, Chandigarh, 160035"
+    android:id="@+id/textView4"
+    android:layout_marginTop="21dp"
+    android:textColor="#0084ff"
+    android:layout_below="@+id/textView3"
+    android:layout_alignParentLeft="true"
+    android:layout_alignParentStart="true"
+    android:background="#fdffe5"
+    android:layout_marginBottom="50dp"
+    android:textIsSelectable="true" />
+
+
+
+    <ImageButton
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/ib"
+
+        android:src="@drawable/directions"
+
+        android:layout_marginLeft="0dp"
+        android:layout_marginTop="20dp"
+        android:layout_below="@+id/textView2"
+        android:background="#ffffff" />
+
+    <ImageButton
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/imageButton11"
+        android:onClick="two"
+        android:src="@drawable/weblink"
+        android:layout_below="@+id/textView2"
+        android:layout_marginLeft="60dp"
+        android:layout_marginTop="20dp"
+        android:background="#ffffff" />
+
+    <ImageButton
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/imageButton122"
+        android:onClick="three"
+        android:src="@drawable/cab"
+        android:layout_below="@+id/textView2"
+        android:layout_marginTop="20dp"
+        android:layout_marginLeft="210dp"
+        android:background="#ffffff" />
+
+
+    <ImageButton
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/imageButton12"
+        android:layout_marginTop="20dp"
+        android:src="@drawable/call"
+        android:layout_alignParentRight="true"
+        android:layout_marginRight="0dp"
+
+        android:layout_below="@+id/textView2"
+        android:background="#ffffff"/>
+
+    <ImageButton
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/imageButton123"
+        android:onClick="four"
+        android:src="@drawable/user"
+        android:layout_below="@+id/textView2"
+        android:layout_marginTop="20dp"
+        android:layout_marginLeft="140dp"
+        android:background="#ffffff" />
+
+
+
+</RelativeLayout>
+</ScrollView>
+
+

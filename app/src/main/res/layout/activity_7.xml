@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:id="@+id/scrollView"
+    android:layout_alignParentTop="true"
+    android:layout_toLeftOf="@+id/textView7"
+    android:layout_toStartOf="@+id/textView7" >
+
+    <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:paddingBottom="@dimen/activity_vertical_margin"
+        android:paddingLeft="@dimen/activity_horizontal_margin"
+        android:paddingRight="@dimen/activity_horizontal_margin"
+        android:paddingTop="@dimen/activity_vertical_margin"
+        tools:context="com.mds.mac.hellochandigarh.Activity4">
+
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceSmall"
+            android:text="5 STAR"
+            android:id="@+id/textView7"
+            android:layout_below="@+id/textView6"
+            android:layout_centerHorizontal="true" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:text="The Lalit Chandigarh"
+            android:layout_marginTop="25dp"
+            android:id="@+id/textView6"
+            android:layout_below="@+id/imageButton8"
+            android:layout_centerHorizontal="true" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceSmall"
+            android:text="This upmarket hotel in a grey and glass building is 7 km from Sukhna Lake.
+
+The contemporary rooms feature free Wi-Fi, parquet floors and flat-screen TVs, plus minibars, tea and coffeemakers and full-length glass windows offering views of the Shivalik range and the forest. Upgrades add butler service, safes and exclusive lounge access with breakfast and tea, plus sitting areas and sofas; some offer living rooms with dining areas. Room service is available.
+
+Free breakfast and parking are included. There are 3 restaurants, 2 bars and a coffee shop. Guests also have access to a marble lobby lounge, a spa and a pool, as well as an exercise room.
+"
+            android:id="@+id/textView8"
+            android:layout_marginTop="32dp"
+            android:layout_below="@+id/textView7"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true" />
+
+        <TextView
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:text="Phone:0172 300 7777"
+            android:id="@+id/textView10"
+            android:textColor="#0084ff"
+            android:textIsSelectable="true"
+            android:background="#fdffe5"
+            android:layout_below="@+id/textView8"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"
+            android:layout_marginTop="70dp"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceSmall"
+            android:text="Address: Rajiv Gandhi IT Park, Near DLF Commercial Complex, Chandigarh, 160101"
+            android:id="@+id/textView9"
+            android:layout_below="@+id/textView8"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"
+            android:layout_marginTop="25dp"
+            android:textColor="#0084ff"
+            android:textIsSelectable="true"
+            android:layout_alignParentEnd="true"
+            android:clickable="false"
+            android:background="#fdffe5" />
+
+
+
+        <ImageButton
+            android:layout_width="match_parent"
+            android:layout_height="250dp"
+            android:id="@+id/imageButton8"
+            android:src="@drawable/lalit"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true" />
+
+
+        <ImageButton
+            android:layout_width="250dp"
+            android:layout_height="match_parent"
+            android:id="@+id/ib4"
+            android:layout_marginTop="850dp"
+            android:src="@drawable/directions"
+            android:layout_alignParentTop="true"
+            android:layout_centerHorizontal="true"
+            android:background="#ffffff" />
+
+    </RelativeLayout>
+
+</ScrollView>

@@ -1,0 +1,137 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.mds.mac.hellochandigarh">
+
+    <!--
+         The ACCESS_COARSE/FINE_LOCATION permissions are not required to use
+         Google Maps Android API v2, but you must specify either coarse or fine
+         location permissions for the 'MyLocation' functionality. 
+    -->
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+    <uses-permission android:name="android.permission.CALL_PHONE" />
+    <uses-permission android:name="android.permission.CALL_PHONE" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/icon"
+        android:label="Smart Chandigarh"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".MainActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".Activity2" />
+        <activity android:name=".Activity3" />
+        <activity android:name=".Activity4" />
+        <activity android:name=".Activity5" />
+        <activity android:name=".Activity6" />
+        <activity android:name=".Activity7" />
+        <activity android:name=".Activity8" />
+        <activity android:name=".Activity9" />
+        <activity android:name=".Activity10" />
+        <activity android:name=".Activity11" />
+        <activity android:name=".Activity31" />
+        <activity android:name=".Activity61" />
+        <activity android:name=".Activity71" />
+        <activity android:name=".Activitydoclist" />
+        <activity android:name=".Doc1" />
+        <activity android:name=".Activity41" />
+        <activity android:name=".Activity411" />
+        <activity android:name=".Activity412" />
+        <activity android:name=".Activity413" />
+        <activity android:name=".Activity414" />
+        <activity android:name=".Activity415" />
+        <activity android:name=".Activity416" />
+        <activity android:name=".Activity417" />
+        <activity android:name=".Activity418" />
+        <activity android:name=".Activity419" />
+        <activity android:name=".Activity21" />
+        <activity android:name=".Gardenactivity" />
+        <activity android:name=".mallsactivity" />
+        <activity android:name=".lakes" />
+        <activity android:name=".multiplexes" />
+        <activity android:name=".rockactivity" />
+        <activity android:name=".cactusactivity" />
+        <activity android:name=".roseactivity" />
+        <activity android:name=".fragranceactivity" />
+        <activity android:name=".elanteactivity" />
+        <activity android:name=".shamactivity" />
+        <activity android:name=".piccadilyactivity" />
+        <activity android:name=".sukhnaactivity" />
+        <activity android:name=".newlakeactivity" />
+        <activity android:name=".funcityactivity" />
+        <activity android:name=".sectoractivity" />
+        <activity android:name=".Gymdata" />
+        <activity android:name=".doc2" />
+        <activity android:name=".doc3" />
+        <activity android:name=".doc4" />
+        <activity android:name=".doc5" />
+        <activity android:name=".doc6" />
+        <activity android:name=".doc7" />
+        <activity android:name=".doc8" />
+        <activity android:name=".doc9" />
+        <activity android:name=".Activity51" />
+        <activity android:name=".Activity511" />
+        <activity android:name=".Activity512" />
+        <activity android:name=".Activity513" />
+        <activity android:name=".Activity514" />
+        <!--
+             The API key for Google Maps-based APIs is defined as a string resource.
+             (See the file "res/values/google_maps_api.xml").
+             Note that the API key is linked to the encryption key used to sign the APK.
+             You need a different API key for each encryption key, including the release key that is used to
+             sign the APK for publishing.
+             You can define the keys for the debug and release targets in src/debug/ and src/release/. 
+        -->
+        <meta-data
+            android:name="com.google.android.geo.API_KEY"
+            android:value="@string/google_maps_key" />
+
+        <activity
+            android:name=".MapsActivity11"
+            android:label="@string/title_activity_maps11" />
+        <activity android:name=".Credits" />
+        <activity android:name=".Main2Activity" />
+        <activity
+            android:name=".MapsActivity12"
+            android:label="@string/title_activity_maps12" />
+        <activity
+            android:name=".MapsActivity13"
+            android:label="@string/title_activity_maps13" />
+        <activity
+            android:name=".MapsActivity14"
+            android:label="@string/title_activity_maps14" />
+        <activity
+            android:name=".MapsActivity15"
+            android:label="@string/title_activity_maps15" />
+        <activity
+            android:name=".MapsActivity16"
+            android:label="@string/title_activity_maps16" />
+        <activity
+            android:name=".MapsActivity17"
+            android:label="@string/title_activity_maps17" />
+        <activity
+            android:name=".MapsActivity18"
+            android:label="@string/title_activity_maps18" />
+        <activity
+            android:name=".MapsActivity9"
+            android:label="@string/title_activity_maps19" />
+        <activity
+            android:name=".MapsActivity51"
+            android:label="@string/title_activity_maps51" />
+        <activity
+            android:name=".MapsActivity52"
+            android:label="@string/title_activity_maps52" />
+        <activity
+            android:name=".MapsActivity53"
+            android:label="@string/title_activity_maps53" />
+        <activity
+            android:name=".MapsActivity54"
+            android:label="@string/title_activity_maps54" />
+    </application>
+
+</manifest>
